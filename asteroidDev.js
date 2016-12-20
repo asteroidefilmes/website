@@ -267,6 +267,11 @@ $(document).ready(function(){
 
     });
 
+    //no orbit animation if firefox
+    if (firefox) {
+      $('.directorworkorbit').toggleClass('paused');
+    }
+
     //stop orbit directors
     $('.directorsbutton.desktop').on("click",function(){
       $(".directorname").css("display","none");
