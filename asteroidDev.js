@@ -3,7 +3,7 @@ $(document).ready(function(){
   //Desktop and Mobile Script
   //MultiScreenJS - change section
   var options = {
-    default_time: 2000,
+    default_time: 200,
     default_scroll_time: 0,
     default_distance: 0
   };
