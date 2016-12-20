@@ -277,9 +277,9 @@ $(document).ready(function(){
     $('.directorsbutton.desktop').on("click",function(){
       $(".directorname").css("display","none");
       $(".directorname.default").css("display","block");
-      /*if (!firefox) {
+      if (!firefox) {
         $('.directorworkorbit').toggleClass('paused');
-      }*/
+      }
     	$canvas.on("mouseleave",function(){
      	 canvasMouseleave();
     	});
@@ -301,9 +301,9 @@ $(document).ready(function(){
     	$canvas.off('mouseleave');
     	$("#Director" + (e.target.nDirector + 1) + "Info").click();
       $(".lazydirector" + (e.target.nDirector + 1) + "desktop").trigger("imgloading");
-      /*if (!firefox) {
+      if (!firefox) {
         $('.directorworkorbit').toggleClass('paused');
-      }*/
+      }
      }
 
      var lastHovered="";
