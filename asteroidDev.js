@@ -241,15 +241,15 @@ $(document).ready(function(){
     $('.workwrapper.desktop').on("mouseenter",function(){
      if (!firefox){
        $(this).find('.workcontainer.desktop').toggleClass('paused');
-       $(this).find('.orbit').toggleClass('paused');
      }
+     $(this).find('.orbit').toggleClass('paused');
      $(this).find(".lazyclientdesktop").trigger("imgloading");
     });
      $('.workwrapper.desktop').on("mouseleave",function(){
       if (!firefox){
         $(this).find('.workcontainer.desktop').toggleClass('paused');
-        $(this).find('.orbit').toggleClass('paused');
       }
+      $(this).find('.orbit').toggleClass('paused');
     });
 
     $(".video1overlay, .video2overlay, .video3overlay, .video4overlay, .video5overlay").on("click", function(){
