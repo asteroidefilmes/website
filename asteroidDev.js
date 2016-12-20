@@ -270,6 +270,7 @@ $(document).ready(function(){
     //no orbit animation if firefox
     if (firefox) {
       $('.directorworkvideo').toggleClass('paused');
+      $('.directorworkorbit').toggleClass('paused');
     }
 
     //stop orbit directors
