@@ -478,4 +478,11 @@ $(document).ready(function(){
 
   }
 
+  $("html,body").trigger("scroll");
+  $(window).resize();
+  $(window).scroll();
+  $(".worksectioncontainer").trigger("scroll");
+  $(".worksectioncontainer").resize();
+  $(".worksectioncontainer").scroll();
+
 });
