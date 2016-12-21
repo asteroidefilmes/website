@@ -459,6 +459,8 @@ $(document).ready(function(){
     	canvasMouseleave();
      });
 
+     $(window).resize();
+
   }
 
 });
