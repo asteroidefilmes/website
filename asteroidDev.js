@@ -33,7 +33,9 @@ $(document).ready(function(){
   	navClick("AboutScreen",this);
   });*/
   $("#WorkLink,#WorkLinkMobile,#WorkLinkMobile2").click(function(){
+    console.log("entrou no click");
     $("html,body").trigger("scroll");
+    console.log("saindo do click");
          //$(window).resize();
   });
   /*$("#DirectorsLink,#DirectorsLinkMobile,#DirectorsLinkMobile2").click(function(){
