@@ -451,6 +451,8 @@ $(document).ready(function(){
 });
 
 $(window).load(function(){
+  var grey = $("#greyBackground").attr("src");
+
   //image lazyload
   $('.lazywork, .lazyclientdesktop, .lazydirector1desktop, .lazydirector2desktop, .lazydirector3desktop, .lazydirector4desktop, .lazydirector5desktop').each(function() {
     $(this).attr('data-original', $(this).css('background-image').replace(/^url\(['"]?/,'').replace(/['"]?\)$/,''));
