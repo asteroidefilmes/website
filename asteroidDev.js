@@ -33,16 +33,13 @@ $(document).ready(function(){
   	navClick("AboutScreen",this);
   });*/
   $("#WorkLink,#WorkLinkMobile,#WorkLinkMobile2").on("click", function(){
-    console.log("entrou no click");
     setTimeout(function(){
-      console.log("entrou no timeout");
       $("html,body").trigger("scroll");
-      $(window).resize();
+      /*$(window).resize();
       $(window).scroll();
       $(".worksectioncontainer").trigger("scroll");
       $(".worksectioncontainer").resize();
-      $(".worksectioncontainer").scroll();
-      console.log("saiu do timeout");
+      $(".worksectioncontainer").scroll();*/
     }, 300);
   });
   /*$("#DirectorsLink,#DirectorsLinkMobile,#DirectorsLinkMobile2").click(function(){
