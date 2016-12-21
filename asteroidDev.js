@@ -51,7 +51,7 @@ $(document).ready(function(){
     $(".worksectioncontainer").resize();
     $(".worksectioncontainer").scroll();
     console.log("saindo do click");
-
+    $(this).click();
   });
   /*$("#DirectorsLink,#DirectorsLinkMobile,#DirectorsLinkMobile2").click(function(){
   	navClick("DirectorsScreen",this);
