@@ -37,6 +37,7 @@ $(document).ready(function(){
     $("html,body").trigger("scroll");
     console.log("saindo do click");
     $(window).resize();
+    $(window).scroll();
   });
   /*$("#DirectorsLink,#DirectorsLinkMobile,#DirectorsLinkMobile2").click(function(){
   	navClick("DirectorsScreen",this);
@@ -222,7 +223,7 @@ $(document).ready(function(){
 
     $(".lazywork").lazyload({
       skip_invisible : true,
-      threshold : 50,
+      threshold : 400,
       effect : "fadeIn"
     });
 
