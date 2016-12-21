@@ -39,6 +39,9 @@ $(document).ready(function(){
       $("html,body").trigger("scroll");
       $(window).resize();
       $(window).scroll();
+      $(".worksectioncontainer").trigger("scroll");
+      $(".worksectioncontainer").resize();
+      $(".worksectioncontainer").scroll();
       console.log("saiu do timeout");
     }, 200);
     $("html,body").trigger("scroll");
