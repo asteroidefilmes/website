@@ -486,3 +486,21 @@ $(document).ready(function(){
   $(".worksectioncontainer").scroll();
 
 });
+
+$(document).load(function(){
+  $("html,body").trigger("scroll");
+  $(window).resize();
+  $(window).scroll();
+  $(".worksectioncontainer").trigger("scroll");
+  $(".worksectioncontainer").resize();
+  $(".worksectioncontainer").scroll();
+});
+
+$(window).load(function(){
+  $("html,body").trigger("scroll");
+  $(window).resize();
+  $(window).scroll();
+  $(".worksectioncontainer").trigger("scroll");
+  $(".worksectioncontainer").resize();
+  $(".worksectioncontainer").scroll();
+});
