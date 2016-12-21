@@ -215,23 +215,7 @@ $(document).ready(function(){
 
     var firefox  = navigator.userAgent.indexOf('Firefox') > -1;
 
-    //image lazyload
-    $('.lazywork, .lazyclientdesktop, .lazydirector1desktop, .lazydirector2desktop, .lazydirector3desktop, .lazydirector4desktop, .lazydirector5desktop').each(function() {
-      $(this).attr('data-original', $(this).css('background-image').replace(/^url\(['"]?/,'').replace(/['"]?\)$/,''));
-      $(this).css('background-image', "url("+grey+")");
-    });
 
-    $(".lazywork").lazyload({
-      skip_invisible : true,
-      threshold : 400,
-      effect : "fadeIn"
-    });
-
-    $(".lazyclientdesktop, .lazydirector1desktop, .lazydirector2desktop, .lazydirector3desktop, .lazydirector4desktop, .lazydirector5desktop").lazyload({
-      event : "imgloading",
-      skip_invisible : true,
-      effect: "fadeIn"
-    });
 
     $(".workdesktop").each(function(){
       var size = $(this).find('.thumbnailsize').html();
@@ -464,4 +448,24 @@ $(document).ready(function(){
 
   }
 
+});
+
+$(window).load(function(){
+  //image lazyload
+  $('.lazywork, .lazyclientdesktop, .lazydirector1desktop, .lazydirector2desktop, .lazydirector3desktop, .lazydirector4desktop, .lazydirector5desktop').each(function() {
+    $(this).attr('data-original', $(this).css('background-image').replace(/^url\(['"]?/,'').replace(/['"]?\)$/,''));
+    $(this).css('background-image', "url("+grey+")");
+  });
+
+  $(".lazywork").lazyload({
+    skip_invisible : true,
+    threshold : 400,
+    effect : "fadeIn"
+  });
+
+  $(".lazyclientdesktop, .lazydirector1desktop, .lazydirector2desktop, .lazydirector3desktop, .lazydirector4desktop, .lazydirector5desktop").lazyload({
+    event : "imgloading",
+    skip_invisible : true,
+    effect: "fadeIn"
+  });
 });
