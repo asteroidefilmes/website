@@ -2,12 +2,12 @@ $(document).ready(function(){
 
   //Desktop and Mobile Script
   //MultiScreenJS - change section
-  var options = {
+  /*var options = {
     default_time: 350,
     default_scroll_time: 0,
     default_distance: 0
-  };
-  MultiScreen.init(options);
+  };*/
+  //MultiScreen.init(options);
   //grid alignment problem in safari
   var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 && navigator.userAgent && !navigator.userAgent.match('CriOS');
  	if (isSafari) {
@@ -15,7 +15,7 @@ $(document).ready(function(){
   }
 
   // NAVIGATION
-  function navClick(target,e){
+  /*function navClick(target,e){
   	$(".menuwrapper, .fixedmenuwrapper").find(".menu-active").toggleClass("menu-active");
    var options={
     target_id: target
@@ -24,9 +24,9 @@ $(document).ready(function(){
    if(target!=="HomeScreen"){
  	 $(e).find(".menutext").toggleClass("menu-active");
    }
-  }
+ }*/
 
-  $("#HomeLink,#HomeLinkMobile,#HomeLinkMobile2").click(function(){
+  /*$("#HomeLink,#HomeLinkMobile,#HomeLinkMobile2").click(function(){
   	navClick("HomeScreen",this);
   });
   $("#AboutLink,#AboutLinkMobile,#AboutLinkMobile2").click(function(){
@@ -100,7 +100,7 @@ $(document).ready(function(){
   //keyboard
   $(document.body).keydown(function(e) {
    SwipeAndKey(e.keyCode,0);
-  });
+ });*/
 
   $(".lightbox.desktop").on("click",function(){
    videocontainer=$(this).find('.videocontainer');
