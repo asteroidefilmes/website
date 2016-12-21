@@ -32,7 +32,7 @@ $(document).ready(function(){
   $("#AboutLink,#AboutLinkMobile,#AboutLinkMobile2").click(function(){
   	navClick("AboutScreen",this);
   });*/
-  $("#WorkLink,#WorkLinkMobile,#WorkLinkMobile2").click(function(){
+  $("#WorkLink,#WorkLinkMobile,#WorkLinkMobile2").on("click", function(){
     console.log("entrou no click");
     setTimeout(function(){
       console.log("entrou no timeout");
@@ -43,7 +43,7 @@ $(document).ready(function(){
       $(".worksectioncontainer").resize();
       $(".worksectioncontainer").scroll();
       console.log("saiu do timeout");
-    }, 200);
+    }, 1000);
     $("html,body").trigger("scroll");
     $(window).resize();
     $(window).scroll();
@@ -51,7 +51,6 @@ $(document).ready(function(){
     $(".worksectioncontainer").resize();
     $(".worksectioncontainer").scroll();
     console.log("saindo do click");
-    $(this).click();
   });
   /*$("#DirectorsLink,#DirectorsLinkMobile,#DirectorsLinkMobile2").click(function(){
   	navClick("DirectorsScreen",this);
