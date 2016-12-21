@@ -219,14 +219,14 @@ $(document).ready(function(){
     });
 
     $(".lazywork").lazyload({
-      skip_invisible : true,
+      skip_invisible : false,
       threshold : 50,
       effect : "fadeIn"
     });
 
     $(".lazyclientdesktop, .lazydirector1desktop, .lazydirector2desktop, .lazydirector3desktop, .lazydirector4desktop, .lazydirector5desktop").lazyload({
       event : "imgloading",
-      skip_invisible : true,
+      skip_invisible : false,
       effect: "fadeIn"
     });
 
