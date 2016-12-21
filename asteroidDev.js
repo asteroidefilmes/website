@@ -39,16 +39,16 @@ $(document).ready(function(){
  	 currentScreen=MultiScreen.get_current_screen();
  	 switch(currentScreen){
  		case "AboutScreen":
- 		 $("#WorkLink).click();
+ 		 $("#WorkLink").click();
  		 break;
  		case "WorkScreen":
- 		 $("#WorkLink).click();
+ 		 $("#WorkLink").click();
  		 break;
  		case "DirectorsScreen":
- 		 $("#WorkLink).click();
+ 		 $("#WorkLink").click();
  		 break;
  		case "ContactScreen":
- 		 $("#WorkLink).click();
+ 		 $("#WorkLink").click();
      break;
  	 }
     //direita
@@ -56,16 +56,16 @@ $(document).ready(function(){
  		 currentScreen=MultiScreen.get_current_screen();
  		 switch(currentScreen){
  			case "AboutScreen":
- 			 $("#WorkLink).click();
+ 			 $("#WorkLink").click();
  			 break;
  			case "WorkScreen":
- 			 $("#WorkLink).click();
+ 			 $("#WorkLink").click();
  			 break;
  			case "DirectorsScreen":
- 			 $("#WorkLink).click();
+ 			 $("#WorkLink").click();
  			 break;
  			case "HomeScreen":
- 			 $("#WorkLink).click();
+ 			 $("#WorkLink").click();
  			 break;
  		 }
  	}
