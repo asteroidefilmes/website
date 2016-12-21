@@ -20,7 +20,7 @@ $(document).ready(function(){
   });
 
   //KEYBOARD-SWIPE
-  function navKey(target,previousLink){
+  /*function navKey(target,previousLink){
  	var options={};
   	$(".menuwrapper, .menuwrappermobile, .fixedmenuwrapper").find(".menu-active").toggleClass("menu-active");
  	options.target_id=target;
@@ -30,13 +30,13 @@ $(document).ready(function(){
      $("#"+previousLink+"Mobile2").find(".menutext").toggleClass("menu-active");
    }
  	MultiScreen.switch_screens(options);
-  }
+  }*/
 
-  function SwipeAndKey(key,swipe){
+  /*function SwipeAndKey(key,swipe){
  	var currentScreen;
  	//esquerda
  	if(key===37||swipe===1){
- 	 currentScreen=MultiScreen.get_current_screen();
+ 	 //currentScreen=MultiScreen.get_current_screen();
  	 switch(currentScreen){
  		case "AboutScreen":
  		 $("#WorkLink").click();
@@ -74,7 +74,7 @@ $(document).ready(function(){
   //keyboard
   $(document.body).keydown(function(e) {
    SwipeAndKey(e.keyCode,0);
- });
+ });*/
 
   $(".lightbox.desktop").on("click",function(){
    videocontainer=$(this).find('.videocontainer');
