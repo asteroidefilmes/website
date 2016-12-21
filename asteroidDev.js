@@ -43,7 +43,7 @@ $(document).ready(function(){
       $(".worksectioncontainer").resize();
       $(".worksectioncontainer").scroll();
       console.log("saiu do timeout");
-    }, 1000);
+    }, 300);
     $("html,body").trigger("scroll");
     $(window).resize();
     $(window).scroll();
