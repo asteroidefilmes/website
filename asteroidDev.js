@@ -42,7 +42,7 @@ $(document).ready(function(){
   $("#ContactLink,#ContactLinkMobile,#ContactLinkMobile2").click(function(){
   	navClick("ContactScreen",this);
   });*/
-
+/*
   //KEYBOARD-SWIPE
   function navKey(target,previousLink){
  	var options={};
