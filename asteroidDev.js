@@ -31,17 +31,16 @@ $(document).ready(function(){
   });
   $("#AboutLink,#AboutLinkMobile,#AboutLinkMobile2").click(function(){
   	navClick("AboutScreen",this);
-  });
+  });*/
   $("#WorkLink,#WorkLinkMobile,#WorkLinkMobile2").click(function(){
-  	navClick("WorkScreen",this);
-   $("html,body").trigger("scroll");
+    $("html,body").trigger("scroll");
   });
-  $("#DirectorsLink,#DirectorsLinkMobile,#DirectorsLinkMobile2").click(function(){
+  /*$("#DirectorsLink,#DirectorsLinkMobile,#DirectorsLinkMobile2").click(function(){
   	navClick("DirectorsScreen",this);
   });
   $("#ContactLink,#ContactLinkMobile,#ContactLinkMobile2").click(function(){
   	navClick("ContactScreen",this);
-  });
+  });*/
 
   //KEYBOARD-SWIPE
   function navKey(target,previousLink){
@@ -219,14 +218,14 @@ $(document).ready(function(){
     });
 
     $(".lazywork").lazyload({
-      skip_invisible : false,
+      skip_invisible : true,
       threshold : 50,
       effect : "fadeIn"
     });
 
     $(".lazyclientdesktop, .lazydirector1desktop, .lazydirector2desktop, .lazydirector3desktop, .lazydirector4desktop, .lazydirector5desktop").lazyload({
       event : "imgloading",
-      skip_invisible : false,
+      skip_invisible : true,
       effect: "fadeIn"
     });
 
@@ -458,8 +457,6 @@ $(document).ready(function(){
      $canvas.on("mouseleave",function(){
     	canvasMouseleave();
      });
-
-     $(window).resize();
 
   }
 
