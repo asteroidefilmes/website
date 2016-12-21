@@ -36,7 +36,7 @@ $(document).ready(function(){
     console.log("entrou no click");
     $("html,body").trigger("scroll");
     console.log("saindo do click");
-         //$(window).resize();
+    $(window).resize();
   });
   /*$("#DirectorsLink,#DirectorsLinkMobile,#DirectorsLinkMobile2").click(function(){
   	navClick("DirectorsScreen",this);
