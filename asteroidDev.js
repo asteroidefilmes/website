@@ -44,13 +44,6 @@ $(document).ready(function(){
       $(".worksectioncontainer").scroll();
       console.log("saiu do timeout");
     }, 300);
-    $("html,body").trigger("scroll");
-    $(window).resize();
-    $(window).scroll();
-    $(".worksectioncontainer").trigger("scroll");
-    $(".worksectioncontainer").resize();
-    $(".worksectioncontainer").scroll();
-    console.log("saindo do click");
   });
   /*$("#DirectorsLink,#DirectorsLinkMobile,#DirectorsLinkMobile2").click(function(){
   	navClick("DirectorsScreen",this);
@@ -476,30 +469,4 @@ $(document).ready(function(){
      });
 
   }
-
-  $("html,body").trigger("scroll");
-  $(window).resize();
-  $(window).scroll();
-  $(".worksectioncontainer").trigger("scroll");
-  $(".worksectioncontainer").resize();
-  $(".worksectioncontainer").scroll();
-
-});
-
-$(document).load(function(){
-  $("html,body").trigger("scroll");
-  $(window).resize();
-  $(window).scroll();
-  $(".worksectioncontainer").trigger("scroll");
-  $(".worksectioncontainer").resize();
-  $(".worksectioncontainer").scroll();
-});
-
-$(window).load(function(){
-  $("html,body").trigger("scroll");
-  $(window).resize();
-  $(window).scroll();
-  $(".worksectioncontainer").trigger("scroll");
-  $(".worksectioncontainer").resize();
-  $(".worksectioncontainer").scroll();
 });
