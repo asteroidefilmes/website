@@ -34,6 +34,7 @@ $(document).ready(function(){
   });*/
   $("#WorkLink,#WorkLinkMobile,#WorkLinkMobile2").click(function(){
     $("html,body").trigger("scroll");
+         //$(window).resize();
   });
   /*$("#DirectorsLink,#DirectorsLinkMobile,#DirectorsLinkMobile2").click(function(){
   	navClick("DirectorsScreen",this);
