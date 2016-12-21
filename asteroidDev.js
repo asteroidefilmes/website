@@ -18,7 +18,7 @@ $(document).ready(function(){
       $(".worksectioncontainer").scroll();*/
     }, 300);
   });
-/*
+
   //KEYBOARD-SWIPE
   function navKey(target,previousLink){
  	var options={};
@@ -39,35 +39,33 @@ $(document).ready(function(){
  	 currentScreen=MultiScreen.get_current_screen();
  	 switch(currentScreen){
  		case "AboutScreen":
- 		 navKey("HomeScreen","");
+ 		 $("#WorkLink).click();
  		 break;
  		case "WorkScreen":
- 		 navKey("DirectorsScreen","DirectorsLink");
+ 		 $("#WorkLink).click();
  		 break;
  		case "DirectorsScreen":
- 		 navKey("AboutScreen","AboutLink");
+ 		 $("#WorkLink).click();
  		 break;
  		case "ContactScreen":
- 		 navKey("WorkScreen","WorkLink");
-      $("html,body").trigger("scroll");
-      break;
+ 		 $("#WorkLink).click();
+     break;
  	 }
     //direita
  	} else if(key===39||swipe===2){
  		 currentScreen=MultiScreen.get_current_screen();
  		 switch(currentScreen){
  			case "AboutScreen":
- 			 navKey("DirectorsScreen","DirectorsLink");
+ 			 $("#WorkLink).click();
  			 break;
  			case "WorkScreen":
- 			 navKey("ContactScreen","ContactLink");
+ 			 $("#WorkLink).click();
  			 break;
  			case "DirectorsScreen":
- 			 navKey("WorkScreen","WorkLink");
-        $("html,body").trigger("scroll");
+ 			 $("#WorkLink).click();
  			 break;
  			case "HomeScreen":
- 			 navKey("AboutScreen","AboutLink");
+ 			 $("#WorkLink).click();
  			 break;
  		 }
  	}
@@ -76,7 +74,7 @@ $(document).ready(function(){
   //keyboard
   $(document.body).keydown(function(e) {
    SwipeAndKey(e.keyCode,0);
- });*/
+ });
 
   $(".lightbox.desktop").on("click",function(){
    videocontainer=$(this).find('.videocontainer');
