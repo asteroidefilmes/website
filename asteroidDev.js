@@ -386,7 +386,9 @@ $(document).ready(function(){
     			$(".directorname").css("display","none");
     			$(".directorname"+(t.image.index+1)).css("display","block");
     			$(".directorname"+(t.image.index+1)).css("opacity","1");
-    			canvas.addEventListener('click',clickDirector);
+          if (t.name === "ImageDirector1") {
+            canvas.addEventListener('click',clickDirector);
+          }
     			canvas.nDirector = t.image.index;
     			lastHovered=t.name;
     		 } else {
