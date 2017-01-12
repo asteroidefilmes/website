@@ -70,7 +70,6 @@ $(document).ready(function(){
  		 }
  	}
   }
-
   //keyboard
   $(document.body).keydown(function(e) {
    SwipeAndKey(e.keyCode,0);
