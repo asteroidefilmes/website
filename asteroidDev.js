@@ -8,7 +8,7 @@ $(document).ready(function(){
   }
 
   // NAVIGATION
-  $("#WorkLink,#WorkLinkMobile,#WorkLinkMobile2").on("click", function(){
+  $("#WorkLink,#WorkLinkMobile,#WorkLinkMobile2,#StartupLink,#StartupLinkMobile,#StartupLinkMobile2").on("click", function(){
     setTimeout(function(){
       $("html,body").trigger("scroll");
       /*$(window).resize();
