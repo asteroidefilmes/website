@@ -296,7 +296,8 @@ $(document).ready(function(){
     	if (isSafari) {
     	 t.image.crossOrigin='anonymous';
     	} else {
-    	 t.image.setAttribute('crossOrigin','');
+        t.image.crossOrigin='anonymous';
+    	 //t.image.setAttribute('crossOrigin','');
     	}
     	t.image.index=i;
     	t.image.onload=start;
