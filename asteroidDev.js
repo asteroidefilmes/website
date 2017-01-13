@@ -282,11 +282,11 @@ $(document).ready(function(){
      var lastHovered="";
 
      var targets=[];
-     targets.push({name:'ImageDirector1',x:347,y:10,hitArray:[]});
-     targets.push({name:'ImageDirector2',x:504,y:125,hitArray:[]});
-     targets.push({name:'ImageDirector3',x:74,y:108,hitArray:[]});
+     targets.push({name:'ImageDirector1',x:347,y:-6,hitArray:[]});
+     targets.push({name:'ImageDirector2',x:505,y:125,hitArray:[]});
+     targets.push({name:'ImageDirector3',x:72,y:108,hitArray:[]});
      targets.push({name:'ImageDirector4',x:505,y:0,hitArray:[]});
-     targets.push({name:'ImageDirector5',x:152,y:14,hitArray:[]});
+     targets.push({name:'ImageDirector5',x:149,y:13,hitArray:[]});
      var imgCount=targets.length;
 
     //load image
