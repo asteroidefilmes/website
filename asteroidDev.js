@@ -293,12 +293,12 @@ $(document).ready(function(){
      for(var i=0;i<targets.length;i++){
     	var t=targets[i];
     	t.image=document.getElementById(t.name);
-    	if (isSafari) {
-    	 t.image.crossOrigin='anonymous';
-    	} else {
-        t.image.crossOrigin='anonymous';
+    	//if (isSafari) {
+    	// t.image.crossOrigin='anonymous';
+    	//} else {
+      t.image.crossOrigin='anonymous';
     	 //t.image.setAttribute('crossOrigin','');
-    	}
+    	//}
     	t.image.index=i;
     	t.image.onload=start;
     	t.image.src=t.image.src+'?'+new Date().getTime();
