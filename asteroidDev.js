@@ -283,10 +283,10 @@ $(document).ready(function(){
 
      var targets=[];
      targets.push({name:'ImageDirector1',x:347,y:-6,hitArray:[]});
-     targets.push({name:'ImageDirector2',x:503,y:126,hitArray:[]});
-     targets.push({name:'ImageDirector3',x:73,y:109,hitArray:[]});
-     targets.push({name:'ImageDirector4',x:503,y:0,hitArray:[]});
-     targets.push({name:'ImageDirector5',x:150,y:14,hitArray:[]});
+     targets.push({name:'ImageDirector2',x:502,y:130,hitArray:[]});
+     targets.push({name:'ImageDirector3',x:74,y:102,hitArray:[]});
+     targets.push({name:'ImageDirector4',x:499,y:6,hitArray:[]});
+     targets.push({name:'ImageDirector5',x:151,y:16,hitArray:[]});
      var imgCount=targets.length;
 
     //load image
