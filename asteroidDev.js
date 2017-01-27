@@ -1,6 +1,16 @@
 $(document).ready(function(){
 
   //Desktop and Mobile Script
+  
+  //Get IP by location, preventing users from US to see the School link
+  $.get("http://freegeoip.net/json/", function (response) {
+    if(response.country_code=='US') {
+     $(".menuschool").css("display", "none");
+    } else {
+     $(".menuschool").css("display", "block");
+    }
+  }, "jsonp");
+  
   //grid alignment problem in safari
   var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 && navigator.userAgent && !navigator.userAgent.match('CriOS');
  	if (isSafari) {
