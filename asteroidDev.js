@@ -13,8 +13,9 @@ $(document).ready(function(){
     if(response.country_code=='BR') {
       $("#contactLocale").val("PT-BR");
     } else {
-      $("#contactLocale").val("ENG"); 
+      $("#contactLocale").val("ENG");
     }
+    $("#contactLocale").css("display", "none");
   }, "jsonp");
   
   //grid alignment problem in safari
