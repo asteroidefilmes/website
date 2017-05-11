@@ -11,9 +11,9 @@ $(document).ready(function(){
     }
     
     if(response.country_code=='BR') {
-      $("#userLocale").val("PT-BR");
+      $("#contactLocale").val("PT-BR");
     } else {
-      $("#userLocale").val("ENG"); 
+      $("#contactLocale").val("ENG"); 
     }
   }, "jsonp");
   
