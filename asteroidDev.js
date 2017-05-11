@@ -9,6 +9,12 @@ $(document).ready(function(){
     } else {
      $(".menuschool").css("display", "block");
     }
+    
+    if(response.country_code=='BR') {
+      $("#userLocale").val("PT-BR");
+    } else {
+      $("#userLocale").val("ENG"); 
+    }
   }, "jsonp");
   
   //grid alignment problem in safari
