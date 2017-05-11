@@ -15,8 +15,8 @@ $(document).ready(function(){
     } else {
       $("#contactLocale").val("ENG");
     }
-    $(".contactLocale").css("display", "none");
-    $("#contactLocale").addClass("hidden");
+    //$(".contactLocale").css("display", "none");
+    //$("#contactLocale").addClass("hidden");
   }, "jsonp");
   
   //grid alignment problem in safari
