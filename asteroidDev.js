@@ -7,7 +7,7 @@ $(document).ready(function(){
     if(response.country_code=='US') {
      $(".menuschool").css("display", "none");
     } else {
-     $(".menuschool").css("display", "block");
+     $(".menuschool").css("display", "flex");
     }
     
     if(response.country_code=='BR') {
