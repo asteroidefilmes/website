@@ -103,7 +103,7 @@ $(document).ready(function(){
    videocontainer.find("iframe").removeAttr("src");
   });
 
-  $(".herobutton.reel").on("click", function(){
+  $(".herobutton.reel, .topreelplay").on("click", function(){
     var vimeoId = $(this).next().html();
     $("#MainIframe").attr("data-src","https://player.vimeo.com/video/"+vimeoId);
     $("#MainIframe").lazyLoadXT();
