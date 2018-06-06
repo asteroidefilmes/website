@@ -421,8 +421,8 @@ $(document).ready(function(){
      }
 
      function canvasMouseleave(){
-    	$(".imagedirector").css("filter","grayscale(1)");
-    	$(".imagedirector").css("-webkit-filter","grayscale(1)");
+    	$(".imagedirector").css("filter","grayscale(0)");
+    	$(".imagedirector").css("-webkit-filter","grayscale(0)");
     	$(this).css("cursor","auto");
     	$(".directorname").css("display","none");
     	$(".directorname.default").css("display","block");
