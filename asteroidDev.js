@@ -298,7 +298,7 @@ $(document).ready(function(){
      var lastHovered="";
 
      var targets=[];
-     targets.push({name:'ImageDirector1',x:553,y:155,hitArray:[]});
+     targets.push({name:'ImageDirector1',x:550,y:170,hitArray:[]});
      targets.push({name:'ImageDirector2',x:387,y:163,hitArray:[]});
      targets.push({name:'ImageDirector3',x:467,y:240,hitArray:[]});
      targets.push({name:'ImageDirector4',x:301,y:240,hitArray:[]});
