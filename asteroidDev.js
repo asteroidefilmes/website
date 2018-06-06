@@ -299,10 +299,12 @@ $(document).ready(function(){
 
      var targets=[];
      targets.push({name:'ImageDirector1',x:553,y:155,hitArray:[]});
-     targets.push({name:'ImageDirector2',x:503,y:141,hitArray:[]});
-     targets.push({name:'ImageDirector3',x:74,y:110,hitArray:[]});
-     targets.push({name:'ImageDirector4',x:504,y:8,hitArray:[]});
-     targets.push({name:'ImageDirector5',x:150,y:22,hitArray:[]});
+     targets.push({name:'ImageDirector2',x:387,y:163,hitArray:[]});
+     targets.push({name:'ImageDirector3',x:467,y:240,hitArray:[]});
+     targets.push({name:'ImageDirector4',x:301,y:240,hitArray:[]});
+     targets.push({name:'ImageDirector5',x:615,y:240,hitArray:[]});
+     targets.push({name:'ImageDirector6',x:146,y:240,hitArray:[]});
+     targets.push({name:'ImageDirector7',x:115,y:135,hitArray:[]});
      var imgCount=targets.length;
 
     //load image
