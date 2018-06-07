@@ -302,9 +302,9 @@ $(document).ready(function(){
      targets.push({name:'ImageDirector2',x:176,y:153,hitArray:[]});
      targets.push({name:'ImageDirector3',x:363,y:130,hitArray:[]});
      targets.push({name:'ImageDirector4',x:511,y:77,hitArray:[]});
-     targets.push({name:'ImageDirector5',x:117,y:22,hitArray:[]});
-     targets.push({name:'ImageDirector6',x:270,y:50,hitArray:[]});
-     targets.push({name:'ImageDirector7',x:487,y:0,hitArray:[]});
+     targets.push({name:'ImageDirector5',x:113,y:14,hitArray:[]});
+     targets.push({name:'ImageDirector6',x:299,y:13,hitArray:[]});
+     targets.push({name:'ImageDirector7',x:495,y:0,hitArray:[]});
      var imgCount=targets.length;
 
     //load image
