@@ -298,13 +298,13 @@ $(document).ready(function(){
      var lastHovered="";
 
      var targets=[];
-     targets.push({name:'ImageDirector1',x:0,y:164,hitArray:[]});
-     targets.push({name:'ImageDirector2',x:137,y:153,hitArray:[]});
-     targets.push({name:'ImageDirector3',x:281,y:146,hitArray:[]});
-     targets.push({name:'ImageDirector4',x:408,y:135,hitArray:[]});
-     targets.push({name:'ImageDirector5',x:80,y:41,hitArray:[]});
-     targets.push({name:'ImageDirector6',x:228,y:45,hitArray:[]});
-     targets.push({name:'ImageDirector7',x:369,y:28,hitArray:[]});
+     targets.push({name:'ImageDirector1',x:0,y:127,hitArray:[]});
+     targets.push({name:'ImageDirector2',x:137,y:112,hitArray:[]});
+     targets.push({name:'ImageDirector3',x:281,y:99,hitArray:[]});
+     targets.push({name:'ImageDirector4',x:408,y:120,hitArray:[]});
+     targets.push({name:'ImageDirector5',x:80,y:8,hitArray:[]});
+     targets.push({name:'ImageDirector6',x:228,y:4,hitArray:[]});
+     targets.push({name:'ImageDirector7',x:372,y:7,hitArray:[]});
      var imgCount=targets.length;
 
     //load image
