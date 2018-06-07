@@ -241,7 +241,7 @@ $(document).ready(function(){
       $(this).find('.orbit').toggleClass('paused');
     });
 
-    $(".video1overlay, .video2overlay, .video3overlay").on("click", function(){
+    $(".video1overlay, .video2overlay, .video3overlay, .video4overlay, .video5overlay").on("click", function(){
       var vimeoid = $(this).find(".vimeoid").html();
       $("#MainIframe").attr("data-src","https://player.vimeo.com/video/"+vimeoid);
       $("#MainIframe").lazyLoadXT();
@@ -285,6 +285,7 @@ $(document).ready(function(){
      function clickDirector(e) {
     	$(".imagedirector").css("filter","hue-rotate(120deg)");
     	$(".imagedirector").css("-webkit-filter","hue-rotate(120deg)");
+      $("#quadro").css("-webkit-filter","opacity(0%)");
     	$canvas.css("cursor","auto");
     	canvas.removeEventListener('click',clickDirector);
     	$canvas.off('mouseleave');
