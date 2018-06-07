@@ -285,7 +285,7 @@ $(document).ready(function(){
      function clickDirector(e) {
     	$(".imagedirector").css("filter","hue-rotate(120deg)");
     	$(".imagedirector").css("-webkit-filter","hue-rotate(120deg)");
-      $("#quadro").css("-webkit-filter","opacity(0%)");
+      $("#quadro").css("display","none");
     	$canvas.css("cursor","auto");
     	canvas.removeEventListener('click',clickDirector);
     	$canvas.off('mouseleave');
