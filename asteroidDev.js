@@ -241,7 +241,7 @@ $(document).ready(function(){
       $(this).find('.orbit').toggleClass('paused');
     });
 
-    $(".video1overlay, .video2overlay, .video3overlay, .video4overlay, .video5overlay").on("click", function(){
+    $(".video1overlay, .video2overlay, .video3overlay").on("click", function(){
       var vimeoid = $(this).find(".vimeoid").html();
       $("#MainIframe").attr("data-src","https://player.vimeo.com/video/"+vimeoid);
       $("#MainIframe").lazyLoadXT();
