@@ -396,10 +396,10 @@ $(document).ready(function(){
     		if(hitArrayIndex<t.hitArray.length-1){
     		 if(t.hitArray[hitArrayIndex]>0){
     			hit=t.name;
-    			$(".imagedirector").css("filter","grayscale(1)");
-    			$(".imagedirector").css("-webkit-filter","grayscale(1)");
-    			$("#"+t.name).css("filter","grayscale(0)");
-    			$("#"+t.name).css("-webkit-filter","grayscale(0)");
+    			$(".imagedirector").css("filter","grayscale(0)");
+    			$(".imagedirector").css("-webkit-filter","hue-rotate(120deg)");
+    			$("#"+t.name).css("filter","hue-rotate(120deg)");
+    			$("#"+t.name).css("-webkit-filter","hue-rotate(120deg)");
     			$canvas.css("cursor","pointer");
     			$(".directorname").css("display","none");
     			$(".directorname"+(t.image.index+1)).css("display","block");
@@ -408,8 +408,8 @@ $(document).ready(function(){
     			canvas.nDirector = t.image.index;
     			lastHovered=t.name;
     		 } else {
-    			$(".imagedirector").css("filter","grayscale(1)");
-    			$(".imagedirector").css("-webkit-filter","grayscale(1)");
+    			$(".imagedirector").css("filter","grayscale(0)");
+    			$(".imagedirector").css("-webkit-filter","grayscale(0)");
     			$canvas.css("cursor","auto");
     			canvas.removeEventListener('click',clickDirector);
     			$(".directorname").css("display","none");
@@ -421,8 +421,8 @@ $(document).ready(function(){
      }
 
      function canvasMouseleave(){
-    	$(".imagedirector").css("filter","grayscale(0)");
-    	$(".imagedirector").css("-webkit-filter","grayscale(0)");
+    	$(".imagedirector").css("filter","hue-rotate(0deg)");
+    	$(".imagedirector").css("-webkit-filter","hue-rotate(0deg)");
     	$(this).css("cursor","auto");
     	$(".directorname").css("display","none");
     	$(".directorname.default").css("display","block");
