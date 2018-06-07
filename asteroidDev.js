@@ -303,7 +303,7 @@ $(document).ready(function(){
      targets.push({name:'ImageDirector3',x:281,y:99,hitArray:[]});
      targets.push({name:'ImageDirector4',x:408,y:120,hitArray:[]});
      targets.push({name:'ImageDirector5',x:80,y:8,hitArray:[]});
-     targets.push({name:'ImageDirector6',x:228,y:4,hitArray:[]});
+     targets.push({name:'ImageDirector6',x:237,y:16,hitArray:[]});
      targets.push({name:'ImageDirector7',x:372,y:7,hitArray:[]});
      var imgCount=targets.length;
 
