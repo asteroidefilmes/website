@@ -283,8 +283,8 @@ $(document).ready(function(){
      var $canvas=$("#canvasdirector1");
 
      function clickDirector(e) {
-    	$(".imagedirector").css("filter","grayscale(1)");
-    	$(".imagedirector").css("-webkit-filter","grayscale(1)");
+    	$(".imagedirector").css("filter","hue-rotate(120deg)");
+    	$(".imagedirector").css("-webkit-filter","hue-rotate(120deg)");
     	$canvas.css("cursor","auto");
     	canvas.removeEventListener('click',clickDirector);
     	$canvas.off('mouseleave');
@@ -396,8 +396,8 @@ $(document).ready(function(){
     		if(hitArrayIndex<t.hitArray.length-1){
     		 if(t.hitArray[hitArrayIndex]>0){
     			hit=t.name;
-    			$(".imagedirector").css("filter","grayscale(0)");
-    			$(".imagedirector").css("-webkit-filter","hue-rotate(120deg)");
+    			$(".imagedirector").css("filter","hue-rotate(0deg))");
+    			$(".imagedirector").css("-webkit-filter","hue-rotate(0deg)");
     			$("#"+t.name).css("filter","hue-rotate(120deg)");
     			$("#"+t.name).css("-webkit-filter","hue-rotate(120deg)");
     			$canvas.css("cursor","pointer");
@@ -408,8 +408,8 @@ $(document).ready(function(){
     			canvas.nDirector = t.image.index;
     			lastHovered=t.name;
     		 } else {
-    			$(".imagedirector").css("filter","grayscale(0)");
-    			$(".imagedirector").css("-webkit-filter","grayscale(0)");
+    			$(".imagedirector").css("filter","hue-rotate(0deg)");
+    			$(".imagedirector").css("-webkit-filter","hue-rotate(0deg)");
     			$canvas.css("cursor","auto");
     			canvas.removeEventListener('click',clickDirector);
     			$(".directorname").css("display","none");
