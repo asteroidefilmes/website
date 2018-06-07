@@ -298,8 +298,8 @@ $(document).ready(function(){
      var lastHovered="";
 
      var targets=[];
-     targets.push({name:'ImageDirector1',x:0,y:194,hitArray:[]});
-     targets.push({name:'ImageDirector2',x:176,y:153,hitArray:[]});
+     targets.push({name:'ImageDirector1',x:0,y:134,hitArray:[]});
+     targets.push({name:'ImageDirector2',x:137,y:128,hitArray:[]});
      targets.push({name:'ImageDirector3',x:363,y:130,hitArray:[]});
      targets.push({name:'ImageDirector4',x:535,y:141,hitArray:[]});
      targets.push({name:'ImageDirector5',x:85,y:85,hitArray:[]});
