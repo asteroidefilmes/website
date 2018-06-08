@@ -266,6 +266,7 @@ $(document).ready(function(){
     $('.directorsbutton.desktop').on("click",function(){
       $(".directorname").css("display","none");
       $(".directorname.default").css("display","block");
+      $("#quadro").css("display","block");
       if (!firefox) {
         $('.directorworkorbit').toggleClass('paused');
       }
