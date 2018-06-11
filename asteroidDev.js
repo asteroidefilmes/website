@@ -286,9 +286,8 @@ $(document).ready(function(){
      var $canvas=$("#canvasdirector1");
 
      function clickDirector(e) {
-    	$(".imagedirector").css("filter","hue-rotate(120deg)");
-    	$(".imagedirector").css("-webkit-filter","hue-rotate(120deg)");
-      $("#quadro").css("display","none");
+    	$(".imagedirector").css("filter","hue-rotate(0deg)");
+    	$(".imagedirector").css("-webkit-filter","hue-rotate(0deg)");
     	$canvas.css("cursor","auto");
     	canvas.removeEventListener('click',clickDirector);
     	$canvas.off('mouseleave');
