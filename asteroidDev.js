@@ -173,8 +173,8 @@ $(document).ready(function(){
     $("#Director3Mobile").on("click", function(){clickDirectorMobile(3);});
     $("#Director4Mobile").on("click", function(){clickDirectorMobile(4);});
     $("#Director5Mobile").on("click", function(){clickDirectorMobile(5);});
-    $("#Director5Mobile").on("click", function(){clickDirectorMobile(6);});
-    $("#Director5Mobile").on("click", function(){clickDirectorMobile(7);});
+    $("#Director6Mobile").on("click", function(){clickDirectorMobile(6);});
+    $("#Director7Mobile").on("click", function(){clickDirectorMobile(7);});
 
     /*//swipe-hammerjs
     delete Hammer.defaults.cssProps.userSelect;
