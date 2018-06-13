@@ -130,7 +130,9 @@ $(document).ready(function(){
   if (x <= 991) {
   // ----- MOBILE SCRIPT -----
 
+   
     //image lazyload
+    /*
     $('.lazyworkmobile, .lazydirector1mobile, .lazydirector2mobile, .lazydirector3mobile, .lazydirector4mobile, .lazydirector5mobile, .lazydirector6mobile, .lazydirector7mobile').each(function() {
       $(this).attr('data-original', $(this).css('background-image').replace(/^url\(['"]?/,'').replace(/['"]?\)$/,''));
       $(this).css('background-image', "url("+grey+")");
@@ -147,6 +149,7 @@ $(document).ready(function(){
       skip_invisible : true,
       effect: "fadeIn"
     });
+    */
 
     $(".workmobile").each(function(){
       var size = $(this).find('.thumbnailsize').html();
@@ -202,7 +205,7 @@ $(document).ready(function(){
   // ----- DESKTOP SCRIPT ------
 
     var firefox  = navigator.userAgent.indexOf('Firefox') > -1;
-
+/*
     //image lazyload
     $('.lazywork, .lazyclientdesktop, .lazydirector1desktop, .lazydirector2desktop, .lazydirector3desktop, .lazydirector4desktop, .lazydirector5desktop, .lazydirector6desktop, .lazydirector7desktop').each(function() {
       $(this).attr('data-original', $(this).css('background-image').replace(/^url\(['"]?/,'').replace(/['"]?\)$/,''));
@@ -220,7 +223,7 @@ $(document).ready(function(){
       skip_invisible : true,
       effect: "fadeIn"
     });
-
+*/
     $(".workdesktop").each(function(){
       var size = $(this).find('.thumbnailsize').html();
       if (size != 1) {
